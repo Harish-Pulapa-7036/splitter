@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(185, 41%, 84%);
+}
+#main{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 3rem;
+    
+
+}
+#container{
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 3rem;
+    margin: 10rem auto;
+    width: 60%;
+    height: 70vh;
+    font-size: 1.5rem;
+    border-radius: 1rem;  
+    
+}
+#left{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 10px
+    
+    
+}
+#right{
+    display: flex;
+    margin: 20px auto;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+  
+    width: 50%;
+    flex-direction: column;
+}
+#buttonselect{
+    display: flex;
+    flex-wrap: wrap;
+}
+.select{
+    
+    width: 5rem;
+    height: 2rem;
+    margin: 0.5rem;
+    
+}
+#tip{
+    
+    margin: 0 5rem 2rem 0;
+    
+}
+#total{
+    margin:5rem 9rem 5rem 0
+    
+}
+#reset{
+    margin-top: 12rem;
+    border-radius: 5px;
+    height: 2rem;
+    background-color: hsl(184, 14%, 56%);
+}

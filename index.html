@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+
+        splitter
+        <div id="container">
+        
+            <div id="left">
+                <label for="">Bill</label><br>
+                <input type="number" value="0" id="billamount" placeholder="0"><br>
+                <label for="" >Select Tip %</label>
+                  <div id="buttonselect">
+                    <button class="select" onclick=tip(5)>5%</button>
+                    <button class="select" onclick=tip(10)>10%</button>
+                    <button class="select" onclick=tip(15)>15%</button>
+                    <button class="select" onclick=tip(20)>20%</button>
+                    <button class="select" onclick=tip(25)>25%</button>
+                </div>
+                <label for="">Number of People</label><br>
+                <input type="number" id="noofpeople" placeholder="0"><br>
+
+            </div>
+            <div id="right">
+            <div>
+               <span >Tip Amount</span>
+               <span id="tip" >$0.00</span>
+            </div>
+            <div>
+                <span >Total</span>
+                <span id="total">$0.00</span>
+             </div>
+                <button id="reset" onclick=reset()>Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
